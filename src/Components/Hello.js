@@ -22,8 +22,8 @@ this.setState({count: this.state.count -1 });
     render() {
       return (
         <div className = "App">
-          <button onClick = {this.increament} className = "counter">Increament</button>
-          <button onClick = {this.decreament} className = "counter">Decreament</button>
+          <button onClick = {this.increament} className = "counter">Increament by 1</button>
+          <button onClick = {this.decreament} className = "counter">Decreament by 1</button>
           <h1>Counter:{this.state.count}</h1>
           <div>
             <input value={this.state.term}
